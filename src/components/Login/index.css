@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: "Open Sans";
+}
+
+.login-head {
+    background-color: black;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #343A40 ;
+}
+
+.login-logo {
+    max-height: 100%;
+}
+
+.login-footer{
+    background-color: #25262B;
+    border-top: 1px solid #343A40;
+    width: 100vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.login-footer-p {
+    color: #5C5F66;
+    font-family: "Open Sans";
+}
+
+.body-div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 92vh;
+}
+
+#body-box {
+    border: 1px solid #474e55;
+    background-color: #191a1b;
+    color: white;
+    border-radius: 17px;
+    width: 460px;
+    padding: 24px 40px 40px 40px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-box-h1 {
+    font-size: 20px;
+}
+
+.body-box-button-one {
+    border: 1px #707172 solid;
+    background-color: transparent;
+    color: rgb(206, 202, 202);
+    width: 380px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google-icon {
+    width: 20px;  
+    height: 20px;
+    margin-right: 8px; 
+}
+
+.body-box-button-two {
+    background-image: linear-gradient(to right,#4B63DD,#0524BF);
+    width: 195px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 13px 35px 13px 35px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.brder-box-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brder-box-one-p {
+    color: rgb(142, 135, 135);
+}
+
+.brder-box-one-button {
+    border: none;
+    background: none;
+    color: rgb(214, 210, 210);
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #body-box {
+        width: 85%;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .body-box-button-one {
+        width: 100%;
+        max-width: none;
+    }
+
+    .body-box-button-two {
+        width: 60%;
+        max-width: none;
+        font-size: 12px;
+    }
+
+    .body-box-h1 {
+        font-size: 18px;
+    }
+
+    .login-head, .login-footer {
+        padding: 5px;
+    }
+
+    .login-logo {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    #body-box {
+        width: 60%;
+        padding: 24px;
+        gap: 40px;
+    }
+
+    .body-box-button-one {
+        width: 100%;
+        max-width: none;
+    }
+
+    .body-box-button-two {
+        width: 60%;
+        max-width: none;
+    }
+
+    .body-box-h1 {
+        font-size: 19px;
+    }
+
+    .login-logo {
+        width: 15%;
+    }
+}
